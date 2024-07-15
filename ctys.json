@@ -5,9 +5,9 @@
 "lives":[
 {"name":"IPV4","type":0,"playerType":2,"url":"./live/IPV4.txt"},
 {"name":"IPV6","type":0,"playerType":1,"url":"https://live.fanmingming.com/tv/m3u/ipv6.m3u"}
-],
+]，
 "sites":[
-//{"key":"豆瓣","name":"🎬影视","type":3,"api":"csp_Douban","searchable":0,"ext":"./main/douban.json"},
+{"key":"豆瓣","name":"🎬影视","type":3,"api":"csp_Douban","searchable":0,"ext":"./main/douban.json"},
 {"key":"戏曲","name":"🎪戏曲大全","type":3,"searchable":0,"changeable":0,"style":{"type":"rect","ratio":1.597},"api":"./cat/main/戏曲大全.js"},
 {"key":"相声","name":"🎭相声小品","type":3,"searchable":0,"changeable":0,"style":{"type":"rect","ratio":1.597},"api":"./cat/main/相声小品.js"},
 {"key":"舞蹈","name":"💃舞蹈健身","type":3,"searchable":0,"changeable":0,"style":{"type":"rect","ratio":1.597},"api":"./cat/main/舞蹈健身.js"},
@@ -28,7 +28,7 @@
 {"key":"有声","name":"🎧有声广播","type":3,"searchable":0,"changeable":0,"style":{"type":"rect","ratio":1.597},"api":"./cat/main/有声广播.js"},
 {"key":"食谱","name":"🥙美食秘笈","type":3,"searchable":0,"changeable":0,"style":{"type":"rect","ratio":1.597},"api":"./cat/main/美食秘笈.js"},
 {"key":"健康","name":"👩‍⚕️健康生活","type":3,"searchable":0,"changeable":0,"style":{"type":"rect","ratio":1.597},"api":"./cat/main/健康生活.js"},
-{"key":"Aid","name":"🚑急救教学","type":3,"searchable":0,"changeable":0,"style":{"type":"rect","ratio":3.8},"api":"csp_FirstAid","jar": "./jar/fan.txt;md5;364c0f012e73a8801a69900fc25ae9c1"},
+{"key":"Aid","name":"🚑急救教学","type":3，"searchable":0,"changeable":0,"style":{"type":"rect"，"ratio":3.8},"api":"csp_FirstAid"，"jar": "./jar/fan.txt;md5;364c0f012e73a8801a69900fc25ae9c1"},
 {"key":"安全","name":"👮‍安全防骗","type":3,"searchable":0,"changeable":0,"style":{"type":"rect","ratio":1.597},"api":"./cat/main/安全防骗.js"},
 {"key":"心理","name":"💞心理健康","type":3,"searchable":0,"changeable":0,"style":{"type":"rect","ratio":1.597},"api":"./cat/main/心理健康.js"},
 {"key":"童趣","name":"👶童趣生活","type":3,"searchable":0,"changeable":0,"style":{"type":"rect","ratio":1.597},"api":"./JS/drpy2.min.js","ext":"./JS/童趣.js"},
@@ -49,7 +49,7 @@
 {"key":"🔍搜索6","name":"🔍搜索源6","type":3,"api":"./JS/drpy2.min.js","ext":"./JS/量子资源.js"},
 {"key":"🔍搜索7","name":"🔍搜索源7","type":3,"api":"./JS/drpy2.min.js","ext":"./JS/魔都资源.js"},
 //{"key":"push_agent","name":"🛴手机推送","type":3,"api":"csp_Push","searchable":0,"quickSearch":0,"ext":{"aliToken":"file://tvbox/token.txt","quarkCookie":"file://tvbox/cookie.txt","from":"4k|auto|fhd"}}
-],
+]，
 "parses":[
 {"name":"解析1","type":0,"url":"https://jx.xmflv.com/?url="},
 {"name":"解析2","type":0,"url":"https://jx.777jiexi.com/player/?url="},
@@ -60,6 +60,6 @@
 {"name":"解析7","type":0,"url":"https://jx.m3u8.tv/jiexi/?url="},
 {"name":"解析8","type":0,"url":"https://bd.jx.cn/?url="},
 {"name":"解析9","type":0,"url":"https://jx.jsonplayer.com/player/?url="}
-],
+]，
 "flags": ["youku","优酷","优 酷","优酷视频","qq","腾讯","腾 讯","腾讯视频","iqiyi","qiyi","奇艺","爱奇艺","爱 奇 艺","m1905","xigua","letv","levp","leshi","乐视","乐 视","sohu","搜狐","搜 狐","搜狐视频","tudou","pptv","mgtv","芒果","imgo","芒果TV","芒 果 T V","bilibili","bilibili1","哔 哩","哔 哩 哔 哩","cntv","CNTV","C N T V","央视频","央 视 频"]
 }
